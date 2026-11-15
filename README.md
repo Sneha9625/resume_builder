@@ -91,7 +91,7 @@ npm install
 
 ```env
 PORT=5000
-MONGO_URI=your_mongodb_uri
+MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
@@ -109,7 +109,7 @@ Start backend:
 
 ```bash
 cd server
-npm run dev
+npm start
 ```
 
 Start frontend:
